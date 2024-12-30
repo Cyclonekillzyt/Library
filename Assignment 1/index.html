@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/2b575c6270.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--<h1>Book Shelf</h1>
+        <p>This is a book shelf. You can add books to it. You can also delete books from it. You can also mark books as read or not read. You can also edit books. You can also search for books. You can also sort books by title, author, pages, and read.</p>
+        
+        -->
+    <div class="header">
+      <h1>The Bookshop</h1>
+      <div class="circle" id="addPage"><i class="fa-solid fa-plus"></i></div>
+      
+    </div>
+    <div class="display" id="display"></div>
+    <div class="main" id="main">
+      <form action="" id="form">
+        <input
+          type="text"
+          id="title"
+          placeholder="Title"
+          class="input"
+          required
+        />
+        <input
+          type="text"
+          id="author"
+          placeholder="Author"
+          class="input"
+          required
+        />
+        <input
+          type="number"
+          id="pages"
+          placeholder="Number of pages"
+          min="0"
+          class="input"
+          required
+        />
+        <label for="read" class="checkBox">
+          <p>Read</p>
+          <input type="checkbox" id="read" />
+        </label>
+        <button type="submit" id="submit" class="submit">Submit</button>
+        <button id="exitBtn" class="submit">Exit</button>
+      </form>
+    </div>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
